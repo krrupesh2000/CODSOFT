@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio |</title>
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Rupesh</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mail to:krrupesh2000@gmail.com " target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-envelope"></i>
+                <span>E-mail</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--section 1 hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I am Rupesh</h2>
+                <p>Tech-savvy and enthusiastic web developer with a strong interest in creating sleek and stunning website. Proficient in Html, css & Javascript and eager to apply my knowledge to real-world projects. Possessing a passion for innovation, I am excited to contribute to cutting-edge web development.</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>projects</span>
+                    </a>
+                    <a href="#resume">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Resume</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/rupesh.png" alt="rupesh headshot">
+            </div>
+        </section>
+
+        <!--section 2 skill-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Strong foundation in creating the structure and content of web pages with HTML, Proficiency in styling and layout for visually appealing designs with CSS & Understanding of core concepts and ability to create interactive elements in javascript. Ability to effectively convey ideas and collaborate with team members.
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="js logo">
+                    <span>Java Script</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/download.png" alt="java logo">
+                    <span>Java</span>
+                </div>
+
+            </div>
+        </section>
+    
+        <!--section 3 project-->
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="text">
+                Some of my recent project work -
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/landing-page.png" alt="landing page logo">
+                    <span>Landing Page</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/icons8-portfolio-64.png" alt="portfolio logo">
+                    <span>Portfolio</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/calculator.png" alt="calculator logo">
+                    <span>Calculator</span>
+                </div>
+        </section>
+
+        <!--section 4 resume-->
+        <section id="resume" class="resume-section">
+            <h2>Resume</h2>
+            <div class="text">
+                Click here to download my Resume -
+               <a href="/images/resume.pdf" download class="download-btn">Download</a>
+            </div>
+        </section>
+
+        <!--section 5 contct-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            
+            <div class="group">
+                <div class="text">
+                    Get in touch with us for collaborations, inquiries, or just to say hello! Follow us on LinkedIn , instagram, x.com for updates and industry insights. If you have any query contact us. We’d love to hear from you!
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                    </form>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul><li><a href="">Home</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Our Team</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy; 2024; All rights reserved. Designed by <span class="designer">RUPESH</span></p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
